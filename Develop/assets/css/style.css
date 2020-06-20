@@ -4,6 +4,8 @@ body {
   line-height: 1;
 }
 
+
+
 textarea{
   background: transparent;
   border: none;
@@ -11,9 +13,14 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  
+}
+
+.inputArea {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  /* outline: none; */
 }
 
 .jumbotron {
@@ -68,6 +75,7 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  outline: none;
 }
 
 .saveBtn i:hover {
@@ -77,4 +85,5 @@ textarea{
 .saveBtnImg {
   display: inline-block;
   vertical-align: middle;
+  outline: none;
 }
