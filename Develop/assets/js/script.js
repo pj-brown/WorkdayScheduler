@@ -16,6 +16,7 @@
 
 $(document).ready(function() {
     // use moment().format() to write the desired format to the div with class currentDay
+    // this was working until I had to restructures my files
     $("#currentDay").text(moment().format("dddd, MMMM Do")); 
 
     $(".saveBtn").click(function() {
