@@ -16,12 +16,31 @@
 // Variables
 
 
-
+// Need to set user input as an array and use JSON.stringify to set array to string
+// then use parse when retrieving?
 // Functions
-    //Moment JS
-     // Day, Month Date
-        // Not sure how to implement these yet
-        // <script src="moment.js"></script>
-        // <script>moment().format('MMMM Do YYYY, h:mm:ss a');</script>
+// $(window).on("load", loadTextarea(){
+//     $("#nineAM").val() = localStorage.getItem("textarea", "");
+//     $("#tenAM").value = localStorage.getItem("textarea", "");
+//     $("#elevenAM").value = localStorage.getItem("textarea", "");
+//     $("#twelvePM").value = localStorage.getItem("textarea", "");
+//     $("#onePM").value = localStorage.getItem("textarea", "");
+//     $("#twoPM").value = localStorage.getItem("textarea", "");
+//     $("#threePM").value = localStorage.getItem("textarea", "");
+//     $("#fourPM").value = localStorage.getItem("textarea", "");
+//     $("#fivePM").value = localStorage.getItem("textarea", "");
+
+// });
+
+function saveTextarea(){
+    $("#textarea").value = localStorage.setItem("textarea", "");
+};
+
+//Moment JS
+$("#currentDay").moment().format("dddd, MMMM Do"); 
 
 // Event listeners
+// var saveText = $(".saveBtn").on("click", saveTextarea(){
+// console.log(saveText)
+    
+// });
